@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles/default.css" rel="stylesheet" />
+        <script src="scripts/libs/fibonacci_lib.js"></script>
+        <script src="scripts/fibonacci.js"></script>
+        <script src="scripts/functions.js"></script>
+ 
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">          
+                     
+        <title>Fibonacci</title>
+    </head>
+    <body class="body_main">
+        <header class="header">
+                <table class="table_max">
+                    <tr>
+                        <td>
+                            <a href="fibonacci.html">
+                                <img src="images/fibonacci.png" alt="Fibonacci" />    
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+        </header>
+        <div id="container_main">
+            <div>
+                <h3>Fibonacci Diagram</h3>
+                <div>
+                    <button id="btn_luck_reset" class="btn_luck" >Reset Game</button>
+                </div>
+            </div>
+            <hr>
+            <div id="fib_seq">1-1-</div>
+            <canvas id="canvas_fibo" width="1600" height="1600" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            <hr>
+        </div>
+    </body>
+
+</html>
