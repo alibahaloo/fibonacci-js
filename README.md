@@ -8,4 +8,9 @@ The class takes the following parameters as constructor arguments:
 - canvas_id: The ID of the canvas in your HTML. string
 - seq_no: Number of fibonacci sequences you wish to display. integer
 
-Still under development
+Example Implementation:
+In your external .js file:
+
+var fibonnaci;
+fibonnaci = new Fibonnaci("canvas_fibo",10);
+fibonnaci.init();
