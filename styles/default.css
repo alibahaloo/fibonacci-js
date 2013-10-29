@@ -1,0 +1,46 @@
+﻿
+#container_main {
+    //margin-left: auto;
+    padding-left: 100px;
+    margin-right:auto;
+    margin-top:30px;
+    width:960px;
+    font-size:20px; 
+}
+
+
+.body_main {
+	background-color: #E6EFEF;
+}
+
+.header {
+    background: url('../images/cp/container1.png') repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    height:64px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn_luck {
+    //width: 100%;
+    background-color:#2D3333;
+    color:#BAD645;
+    font-family:Helvetica;
+    font-size:20px;
+    
+    border-color:#749EA9;
+    border:2px #749EA9 solid;
+    
+    border-radius:0px; 
+}
+
+
+
+
+
+
+
