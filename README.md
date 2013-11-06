@@ -8,4 +8,4 @@ The class takes the following parameters as constructor arguments:
 - canvas_id: The ID of the canvas in your HTML. string
 - seq_no: Number of fibonacci sequences you wish to display. integer
 
-For example Implementation, look at the fibonacci.html file provided.
+For example Implementation, look at the <b>fibonacci.html</b> file provided.
